@@ -4,3 +4,25 @@
 
 <p> This repository is made by Aryan through commands </p>
 <p> This is feature 1 branch</p>
+
+<div class="mode_feature">
+    <button id="mode_button" style="padding:4px 5px; border-radius:10px; font-family:chiller; font-size:30px; font-weight:bold; color:cyan; border:3px solid cyan;">Mode</button>
+  </div>
+  
+  <script>
+    let body = document.querySelector("body");
+    let btn = document.querySelector("button");
+    // code by PEACEFUL SPIDER M.ARYAN
+    btn.addEventListener('click', () => {
+      if(body.style.background == "white"){
+         body.style.background = "black";
+      }else{
+         body.style.background = "white";
+      }
+      if(body.style.color == "black"){
+         body.style.color = "white";
+      }else{
+         body.style.color = "black";
+      }
+    })
+  </script>
